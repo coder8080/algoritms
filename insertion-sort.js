@@ -1,5 +1,6 @@
 'use strict'
 
+// O(n**2)
 const insertionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
     const current = arr[i]
@@ -12,6 +13,7 @@ const insertionSort = (arr) => {
   }
 }
 
+// O(n**2)
 const insertionSortInverted = (arr) => {
   for (let i = arr.length - 2; i >= 0; i--) {
     const current = arr[i]

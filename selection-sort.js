@@ -1,3 +1,6 @@
+'use strict'
+
+// O(n**2)
 const selectionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
     let current_min = Infinity

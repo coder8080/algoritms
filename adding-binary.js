@@ -1,5 +1,6 @@
 'use strict'
 
+// O(n)
 const addBinaryNumbers = (number1, number2) => {
   const result = []
   const [maxNumber, minNumber] =
