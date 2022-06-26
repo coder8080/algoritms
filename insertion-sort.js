@@ -1,3 +1,5 @@
+'use strict'
+
 const insertionSort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
     const current = arr[i]
