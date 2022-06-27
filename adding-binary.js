@@ -1,7 +1,7 @@
 'use strict'
 
 // O(n)
-const addBinaryNumbers = (number1, number2) => {
+export const addBinaryNumbers = (number1, number2) => {
   const result = []
   const [maxNumber, minNumber] =
     number1.length > number2.length ? [number1, number2] : [number2, number1]

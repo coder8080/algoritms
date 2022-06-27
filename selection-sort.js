@@ -1,8 +1,8 @@
 'use strict'
 
 // O(n**2)
-const selectionSort = (arr) => {
-  for (let i = 1; i < arr.length; i++) {
+export const selectionSort = (arr) => {
+  for (let i = 0; i < arr.length; i++) {
     let current_min = Infinity
     let current_min_index = null
     for (let j = i; j < arr.length; j++) {
@@ -11,6 +11,6 @@ const selectionSort = (arr) => {
         current_min_index = j
       }
     }
-    ;[arr[i - 1], arr[current_min_index]] = [arr[current_min_index], arr[i - 1]]
+    ;[arr[i], arr[current_min_index]] = [arr[current_min_index], arr[i]]
   }
 }
