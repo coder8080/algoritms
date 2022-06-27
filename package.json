@@ -1,0 +1,20 @@
+{
+  "name": "algoritms",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "My implementations for some algoritms & data structures",
+  "main": "merge-sort.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder8080/algoritms.git"
+  },
+  "author": "coder8080",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/coder8080/algoritms/issues"
+  },
+  "homepage": "https://github.com/coder8080/algoritms#readme"
+}
